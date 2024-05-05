@@ -15,16 +15,10 @@ const Navbar = () => {
           </li>
           <li className="flex space-x-4"> {/* Use flex and space-x for spacing */}
             <li>
-              <Link to="/signup" className="text-white hover:text-gray-300">Sign Up</Link>
-            </li>
-            <li>
-              <Link to="/login" className="text-white hover:text-gray-300">Login</Link>
-            </li>
-            <li>
               <Link to="/logout" className="text-white hover:text-gray-300">Logout</Link>
             </li>
           </li>
-          {/* Add more navigation links here */}
+         
         </ul>
       </div>
     </nav>
